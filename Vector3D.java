@@ -9,8 +9,19 @@ public class Vector3D {
         this.z = z;
     }
 
+    static double getX(Vector3D v) {
+        System.out.print(v.x);
+        return v.x;
+    }
 
+    static double getY(Vector3D v) {
+        System.out.print(v.y);
+        return v.y;
+    }
 
-
+    static double getZ(Vector3D v) {
+        System.out.print(v.z);
+        return v.z;
+    }
 
 }
